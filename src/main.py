@@ -1,9 +1,9 @@
 from textnode import TextNode, TextType
 
 def main():
-	text = TextNode("This is some anchor text", TextType.TEXT_LINK, "https://www.boot.dev")
+	text = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
 	print(text)
-	text2 = TextNode("This is some anchor text", TextType.TEXT_ITALIC)
+	text2 = TextNode("This is some anchor text", TextType.ITALIC)
 	print(text2)
 	print(text == text2)
 
